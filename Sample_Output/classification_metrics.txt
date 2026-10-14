@@ -1,0 +1,36 @@
+============================================================
+      DEEP LEARNING MODEL PERFORMANCE EVALUATION REPORT
+============================================================
+
+Dataset Theme: Fruits Classification
+Target Classes (4): Apple, Banana, Orange, Strawberry
+Total Test Samples: 60
+
+KEY METRICS:
+- Accuracy:            95.00%
+- Precision (Macro):   95.21%
+- Recall (Macro):      95.00%
+- F1-Score (Macro):    95.05%
+
+- Precision (Weighted):95.21%
+- Recall (Weighted):   95.00%
+- F1-Score (Weighted): 95.05%
+
+DETAILED CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+       Apple     0.8750    0.9333    0.9032        15
+      Banana     1.0000    0.9333    0.9655        15
+      Orange     0.9333    0.9333    0.9333        15
+  Strawberry     1.0000    1.0000    1.0000        15
+
+    accuracy                         0.9500        60
+   macro avg     0.9521    0.9500    0.9505        60
+weighted avg     0.9521    0.9500    0.9505        60
+
+
+CONFUSION MATRIX:
+[[14  0  1  0]
+ [ 1 14  0  0]
+ [ 1  0 14  0]
+ [ 0  0  0 15]]
